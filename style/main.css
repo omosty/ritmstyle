@@ -1,0 +1,36 @@
+body{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #162831;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 50px 0;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.add-seance{
+    background-color: #018ABE;
+    padding: 9px 15px;
+    border-radius: 3px;
+    border: none;
+    color: aliceblue;
+}
+.add-seance:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+.add-seance:active{
+    filter: brightness(1);
+}

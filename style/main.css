@@ -34,5 +34,80 @@ nav a:hover{
 .add-seance:active{
     filter: brightness(1);
 }
+#banner{
+    background-image: url(../style/img/unsplash_S-llxYh3GzI.svg);
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: aliceblue;
+    text-align: center;
+}
+#banner h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+#banner h2:before{
+    content: url(../style/img/Rectangle\ 3.svg);
+}
+#banner h2:after{
+    content: url(../style/img/Rectangle\ 5.svg);
+}
+h2{
+    display: flex;
+    gap: 66px;
+}
+.title{
+    font-weight: 700;
+    font-size: 42px;
+    color: aliceblue;
+}
+#ceance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    color: aliceblue;
+}
+.title::before{
+    content: url(../style/img/decore-blue.svg);
+}
+.title::after{
+    content: url(../style/img/decore-blue.svg);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
 
-    
+.div1 {
+    background-image: url(../style/img/bg_seance.jpg);
+    height: 540px;
+    background-size: 100% 100%;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.div2 {
+    background-image: url(../style/img/bg_seance.jpg);
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    background-image: url(../style/img/bg_seance.jpg);
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    background-image: url(../style/img/bg_seance.jpg);
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.div5 {
+    background-image: url(../style/img/bg_seance.jpg);
+    grid-area: 2 / 2 / 3 / 3;
+}

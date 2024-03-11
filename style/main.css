@@ -63,6 +63,8 @@ h2{
     font-weight: 700;
     font-size: 42px;
     color: aliceblue;
+    margin: auto;
+    width: max-content;
 }
 #ceance{
     display: flex;
@@ -86,28 +88,75 @@ h2{
 }
 
 .div1 {
-    background-image: url(../style/img/bg_seance.jpg);
     height: 540px;
-    background-size: 100% 100%;
     grid-area: 1 / 1 / 3 / 2;
+    background-position: -200px 0;
 }
 
 .div2 {
-    background-image: url(../style/img/bg_seance.jpg);
     grid-area: 1 / 2 / 2 / 3;
 }
 
 .div3 {
-    background-image: url(../style/img/bg_seance.jpg);
     grid-area: 1 / 3 / 2 / 4;
 }
 
 .div4 {
-    background-image: url(../style/img/bg_seance.jpg);
     grid-area: 2 / 3 / 3 / 4;
 }
 
 .div5 {
-    background-image: url(../style/img/bg_seance.jpg);
     grid-area: 2 / 2 / 3 / 3;
+}
+.seance-style{
+    background-image: url(../style/img/bg_seance.jpg);
+    display: flex;
+    align-items: end;
+    padding: 50px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    background-size: cover;
+    background-color: #018ABE80;
+    background-blend-mode: color;
+    border-radius: 10px;
+    border: #162831 3px solid;
+    transition: all .1s linear;
+}
+.seance-style:hover{
+    border-color: #018ABE;
+    filter: brightness(1.4) drop-shadow(0 0 10px #018ABE80);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 150px ;
+}
+#feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    color: aliceblue;
+
+}
+.feedback-item{
+    background-color: #018ABE;
+    padding: 45px 40px;
+    font-size: 10px;
+    opacity: 40%;
+    border-radius: 10px;
+    height: max-content;
+}
+.feedback{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.feedback-item:nth-child(2){
+    opacity: 100%;
+    font-size: 14px;
+
+
 }

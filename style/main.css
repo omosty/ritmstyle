@@ -186,3 +186,64 @@ main{
     gap: 30px;
     width: 466px;
 }
+.price li{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+}
+.price li::before{
+    content: url(../style/img/decore-blue.svg);
+    position: absolute;
+    transform: scale(.7);
+    margin-left: -40px;
+}
+.rub::after{
+    content: "₽";
+}
+.price ul{
+    width: 416px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.rub{
+    display: flex;
+    gap: 5px;
+    font-weight: 700;
+}
+.wex img{
+    width: 526px;
+    height: 396px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 134px;
+}
+.wex p{
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 700;
+}
+#price{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+.map-item{
+    background-color: #018ABE;
+    border-radius: 10px;
+    padding: 35px 45px;
+}
+#map{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}

@@ -247,3 +247,29 @@ main{
     justify-content: space-between;
     color: aliceblue;
 }
+.map-item button{
+    background-color: aliceblue;
+    padding: 9px 15px;
+    border-radius: 3px;
+    border: none;
+    color: #018ABE;
+
+}
+.map-item p{
+     display: flex;
+     gap: 5px;   
+     align-items: center;
+     justify-content: center;
+}
+.map-item button:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+.map-item:active{
+    filter: brightness(1);
+}
+footer{
+    color: aliceblue;
+    display: flex;
+    animation: step-end;
+}

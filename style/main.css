@@ -241,11 +241,18 @@ main{
     background-color: #018ABE;
     border-radius: 10px;
     padding: 35px 45px;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
 }
 #map{
     display: flex;
     justify-content: space-between;
     color: aliceblue;
+    height: 604px;
+
 }
 .map-item button{
     background-color: aliceblue;
@@ -272,4 +279,9 @@ footer{
     color: aliceblue;
     display: flex;
     animation: step-end;
+}
+.map{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
 }
